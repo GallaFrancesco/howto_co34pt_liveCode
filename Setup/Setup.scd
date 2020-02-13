@@ -7,8 +7,8 @@ s.options.numBuffers = 1024 * 16;
 s.options.memSize = 8192 * 64;
 //boot the server
 s.boot;
-//display the oscilloscope
-s.scope;
+//display the oscilloscope (no gui -> disabled)
+// s.scope;
 //start proxyspace
 p=ProxySpace.push(s);
 //start tempo clock
